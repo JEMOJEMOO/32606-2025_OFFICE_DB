@@ -1,0 +1,12 @@
+### Ensuring Data Integrity
+
+The Office Asset Tracker System ensures data integrity through the use of database constraints and relationships that maintain the accuracy, consistency, and validity of stored data.
+
+* **Primary Keys (PK):** Every table uses a primary key to uniquely identify each record. For example, `EmployeeID`, `AssetID`, and `CategoryID` ensure that duplicate records cannot exist.
+* **Foreign Keys (FK):** Foreign key constraints enforce valid relationships between tables. For example, an asset must reference an existing category, preventing orphan records.
+* **NOT NULL Constraints:** Mandatory fields such as `AssetName`, `SerialNumber`, `FirstName`, and `LastName` cannot be left empty, ensuring that essential information is always provided.
+* **UNIQUE Constraints:** Fields such as `Email`, `Phone`, and `SerialNumber` must contain unique values, preventing duplicate employee contacts and duplicate asset serial numbers.
+* **CHECK Constraints:** The `CHK_STATUS` constraint ensures that only valid asset statuses (such as *Available*, *Assigned*, *Maintenance*, or *Disposed*) can be stored in the database.
+* **Referential Integrity:** Oracle enforces referential integrity through foreign key constraints, ensuring that related records remain consistent across tables.
+* **Business Rules:** Triggers and PL/SQL procedures further protect data by automatically enforcing organizational rules, such as validating asset operations and maintaining accurate records.
+* **Data Validation:** Invalid data that violates any constraint is rejected by Oracle before it is committed to the database, ensuring that only valid and consistent information is stored.
