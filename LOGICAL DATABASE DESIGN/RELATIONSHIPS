@@ -1,0 +1,6 @@
+| Parent                | Child             | Relationship |
+| --------------------- | ----------------- | ------------ |
+| Department → Employee | One-to-Many (1:M) |              |
+| Employee → Asset      | One-to-Many (1:M) |              |
+| Asset → Maintenance   | One-to-Many (1:M) |              |
+| Asset → Audit         | One-to-Many (1:M) |              |
