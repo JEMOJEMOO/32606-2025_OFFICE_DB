@@ -1,1 +1,15 @@
 
+System Scope
+
+The Office Asset Tracker System is designed to help an organization manage its assets from acquisition to assignment, maintenance, auditing, and disposal. It enables administrators to register employees, departments, and assets while monitoring asset status and ownership.
+
+Scope includes:
+Employee management
+Department management
+Asset registration
+Asset assignment
+Asset return
+Maintenance tracking
+Asset auditing
+Asset disposal
+Report generation
