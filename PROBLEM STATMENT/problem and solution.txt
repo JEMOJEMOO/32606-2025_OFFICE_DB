@@ -1,0 +1,22 @@
+# Office Asset Tracker System - Problem Statement
+
+Organizations manage many assets such as computers, printers, furniture, and other equipment. 
+Tracking asset allocation, maintenance, ownership, and availability manually can lead to data loss,
+incorrect records, and poor resource management.
+
+The Office Asset Tracker System was developed to provide a centralized database solution for:
+- Recording assets
+- Managing employees and departments
+- Tracking asset assignments
+- Monitoring maintenance activities
+- Maintaining audit records
+- Enforcing business rules through triggers and PL/SQL programming
+
+The system uses Oracle Database with SQL and PL/SQL features including:
+- Tables and relationships
+- Stored procedures
+- Functions
+- Packages
+- Triggers
+- Auditing
+- Security controls
