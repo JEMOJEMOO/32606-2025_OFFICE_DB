@@ -1,8 +1,0 @@
-
-The Office Asset Tracker System is developed to improve the management of organizational assets throughout their lifecycle. The system begins when the administrator logs into the application. After successful authentication, the administrator registers departments, employees, and assets in the database. Each asset is assigned a unique identification number and linked to a department and employee.
-
-When an employee requires an asset, the administrator assigns it through the system. The system records the assignment and updates the asset status from "Available" to "Assigned." Employees use the assigned assets in their daily work and return them when they are no longer needed or when replacement is required.
-
-If an asset develops a fault, the administrator sends it to the maintenance officer. The maintenance officer performs repairs and records the maintenance details, after which the system updates the asset status accordingly. Regular audits are conducted by the auditor to verify that physical assets match the records stored in the database. Any discrepancies are recorded and corrective actions are taken.
-
-When an asset reaches the end of its useful life or becomes obsolete, the administrator records its disposal, and the system updates its status to "Disposed." Finally, the administrator generates reports that summarize assets by department, employee assignments, maintenance history, audit results, and disposal records. This workflow ensures accountability, improves asset utilization, supports accurate reporting, and provides a complete history of every asset from acquisition to disposal.
