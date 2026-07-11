@@ -20,3 +20,16 @@ CREATE OR REPLACE PACKAGE AssetPackage AS
 
 END AssetPackage;
 /
+
+
+
+package body
+
+
+
+CREATE OR REPLACE PACKAGE BODY AssetPackage AS
+
+    ...
+
+END AssetPackage;
+/
