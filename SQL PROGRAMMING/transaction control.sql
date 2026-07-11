@@ -1,4 +1,0 @@
---TRANSACTION CONTROL
-commit;
-
-rollback;
