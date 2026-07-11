@@ -56,7 +56,4 @@ CREATE PROCEDURE CheckoutAsset
 --CREATE FUNCTION
 CREATE FUNCTION TotalBorrowedAssets
 
---TRANSACTION CONTROL
-commit;
 
-rollback;
