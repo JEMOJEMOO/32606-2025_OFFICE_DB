@@ -5,7 +5,7 @@
 -- =====================================================
 
 -- =====================================================
--- Trigger 1: Prevent Asset Changes During Weekdays
+-- Trigger 1: Prevent Asset Changes During Weekdays.
 -- Business Rule:
 -- Block INSERT, UPDATE, DELETE from Monday-Friday
 -- =====================================================
